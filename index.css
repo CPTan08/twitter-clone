@@ -17,6 +17,8 @@
   align-self: flex-start;
 }
 
+.img {
+}
 .top {
   display: flex;
   align-items: flex-start;
