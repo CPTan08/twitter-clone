@@ -14,7 +14,14 @@
   left: 0;
   background-color: #1bb2e9;
   color: white;
-  align-self: baseline;
+  align-self: flex-start;
+}
+
+.image-txt-container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
 }
 
 /* Control the right side */
