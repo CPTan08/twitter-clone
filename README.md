@@ -1,2 +1,2 @@
 # twitter-clone
-this is for twitterclone project
+My first twitterclone project using flexbox
