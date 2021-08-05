@@ -12,22 +12,20 @@
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #1bb2e9;
+  background-color: #1da1f2;
   color: white;
   align-self: flex-start;
 }
 
-.image-txt-container {
+.top {
   display: flex;
-  flex-flow: column wrap;
-  align-content: space-between;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 /* If you want the content centered horizontally and vertically */
