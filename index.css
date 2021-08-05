@@ -19,9 +19,9 @@
 
 .image-txt-container {
   display: flex;
-  flex-flow: column-reverse wrap-reverse;
+  flex-flow: column wrap;
   align-content: space-between;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* Control the right side */
@@ -43,4 +43,17 @@
 .centered img {
   width: 150px;
   border-radius: 50%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-item {
+  height: 55px;
+  width: 300px;
+}
+span {
+  padding-left: 5px;
 }

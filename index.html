@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,28 +10,40 @@
   <body>
     <div class="split left">
       <div class="centered">
-        <div class="image-txt-container">
-          <img src="img_search.svg" alt="search icon" width="20" height="20" />
-          <h3>Follow your interests.</h3>
-          <img src="img_people.svg" alt="people icon" width="20" height="20" />
-          <h3>Hear what people are talking about.</h3>
-          <img
-            src="img_speechb.svg"
-            alt="speech bubble"
-            width="20"
-            height="20"
-          />
-          <h3>Join the conversion.</h3>
+        <div class="flex-container">
+          <div class="flex-item">
+            <img src="images\img_search.svg" />
+            <span>Follow your interests.</span>
+          </div>
+
+          <div class="flex-item">
+            <img src="images\img_people.svg" />
+            <span>Hear what people are talking about.</span>
+          </div>
+
+          <div class="flex-item">
+            <img src="images\img_speechb.svg" />
+            <span>Join the conversion.</span>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="split right">
       <div class="centered">
-        <img src="img_bird.png" alt="bird" width="60" height="50" />
-        <h1>See what's happening in the world right now</h1>
-        <p></p>
-        <p></p>
+        <form action="/action_page.php" id="usrform">
+          <textarea rows="2" cols="20" name="usrname" form="usrform">
+            Phone,email,username</textarea
+          >
+          <textarea rows="2" cols="20" name="usrname" form="usrform">
+            Password</textarea
+          >
+          <input type="submit" />
+        </form>
+        <br />
+        <img src="images\img_bird.png" alt="bird" width="60" height="50" />
+        <h1>See what's happening in the world right now.</h1>
+        <br />
         <h3>Join Twitter today.</h3>
       </div>
     </div>
